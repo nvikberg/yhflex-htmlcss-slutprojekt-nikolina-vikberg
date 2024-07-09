@@ -12,16 +12,17 @@ const portfolioData = [
         title: 'Health App',
     },
     {
-        route: './SuperHeroProject',
-        src: superheroPic,
-        title: 'Online Taskboard',
-    },
-    {
         route: './MovieProject',
         src: moviesPic,
         title: 'Movie Search Engine',
 
     },
+    {
+        route: './SuperHeroProject',
+        src: superheroPic,
+        title: 'Online Taskboard',
+    },
+
     {
         route: './NumbersGameProject',
         src: dice2,

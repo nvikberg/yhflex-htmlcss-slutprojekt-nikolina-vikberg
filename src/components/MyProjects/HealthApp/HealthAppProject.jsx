@@ -19,7 +19,7 @@ function HealthAppProject() {
 
                         <p className='projectDescriptionText'>
 This is a mental health app that I'm developing together with a friend.
-It's about finding balance between the important factors that helps you to be happy
+It's about finding balance between the important factors that helps you to be happy.<br/>
 More information coming soon.. 
                     
                         </p>

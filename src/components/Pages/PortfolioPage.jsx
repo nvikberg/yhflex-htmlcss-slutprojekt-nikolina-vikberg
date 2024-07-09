@@ -7,8 +7,8 @@ function Portfolio() {
     return ( 
         <>
         <HealthAppProject></HealthAppProject>
-        <SuperHeroProject></SuperHeroProject>
         <MovieProject></MovieProject>
+        <SuperHeroProject></SuperHeroProject>
         <NumbersGameProject></NumbersGameProject>
         </>
      );

@@ -1,7 +1,7 @@
 {
   "name": "parcel",
   "version": "1.0.0",
-  "homepage": "https://nvikberg.github.io/yhflex-htmlcss-slutprojekt-nikolina-vikberg/",
+  "homepage": "https://nvikberg.github.io/home/",
   "description": "",
   "scripts": {
     "dev": "parcel ./src/index.html",

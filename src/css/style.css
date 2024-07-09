@@ -136,12 +136,18 @@ p {
 }
 
 
-.Nikolina2 {
+.textHome {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 3rem;
     color: var(--light-pink);
-
+}
+.textHome2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--light-pink);
+    margin-bottom: 5rem;
 }
 
 

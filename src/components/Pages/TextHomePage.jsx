@@ -17,9 +17,9 @@ function Hello() {
 
     return (
         <div className="startPage">
-            <p className="Nikolina2">
+            <p className="textHome">
                <span> Hi. I'm Nikolina, </span>
-                <p> <span>a
+                <p className="textHome2"> <span>a
                 Swede, a Yogi and a &lt;coder&gt; student.</span></p>
             </p>
         </div>
