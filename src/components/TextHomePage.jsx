@@ -19,8 +19,8 @@ function Hello() {
     return (
         <div className="startPage">
             <p className="Nikolina2">
-                Hi. I'm Nikolina, <br></br>a
-                Swede a Yogi & a <p className="Nikolina">&lt;coder&gt; </p>
+                Hi. I'm Nikolina, <br/>a
+                Swede a Yogi & a &lt;coder&gt; student.
             </p>
             <button onClick={aboutMeClick}></button>
         </div>

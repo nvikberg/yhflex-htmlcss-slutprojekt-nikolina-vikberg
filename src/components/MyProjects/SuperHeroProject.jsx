@@ -35,10 +35,10 @@ function SuperHeroProject() {
                     </div>
 
                     <div className='projectImgDiv'>
-                        <img src={toDoPic} alt="todo" className='portfolioItems' />
-                        <img src={InProgressPic} alt="inprogress" className='portfolioItems' />
-                        <img src={donePic} alt="done" className='portfolioItems' />
-                        <img src={firebase} alt="firebase" className='portfolioItems' />
+                        <img src={toDoPic} alt="todo" className='projectPhotos' />
+                        <img src={InProgressPic} alt="inprogress" className='projectPhotos' />
+                        <img src={donePic} alt="done" className='projectPhotos' />
+                        <img src={firebase} alt="firebase" className='projectPhotos' />
 
                     </div>
                 </div>

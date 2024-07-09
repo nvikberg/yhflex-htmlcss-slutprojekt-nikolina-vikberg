@@ -9,7 +9,7 @@ function MovieProject() {
     return (
         <>
             <div className="container">
-                <div className='projectHeaderDiv2'>
+                <div className='projectHeaderDiv'>
                     <p className='projectHeaderText'>Movie Search Engine</p>
                 </div>
                 <div className='wrapDivs'>

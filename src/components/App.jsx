@@ -8,6 +8,7 @@ import SuperHeroProject from "./MyProjects/SuperHeroProject"
 import MovieProject from "./MyProjects/MovieProject"
 import NumbersGameProject from "./MyProjects/NumbersGameProject"
 import HealthAppProject from "./MyProjects/HealthAppProject"
+import LinkedIn from "./linkedIn"
 
 export function App() {
     console.log("hello")
@@ -28,6 +29,9 @@ export function App() {
                     <Route path="numbersgameproject" element={<NumbersGameProject />} />
                     <Route path="healthappproject" element={<HealthAppProject />} />
                     <Route path="*" element={<ErrorPage />} />
+                    <Route path="http://www.linkedin.com/in/nikolina-vikberg-a368198b" element={<LinkedIn />} /> 
+
+
 
                 </Route>
             </Routes>
