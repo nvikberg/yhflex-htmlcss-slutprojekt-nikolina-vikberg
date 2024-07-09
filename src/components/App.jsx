@@ -28,7 +28,7 @@ export function App() {
                     <Route path="movieproject" element={<MovieProject />} />
                     <Route path="numbersgameproject" element={<NumbersGameProject />} />
                     <Route path="healthappproject" element={<HealthAppProject />} />
-                    <Route path="*" element={<ErrorPage />} />
+                    <Route path="*" element={<Home />} />
                 </Route>
             </Routes>
         </BrowserRouter>
