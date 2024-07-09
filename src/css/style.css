@@ -29,13 +29,13 @@ nav {
 a {
     color: var(--gray);
     text-decoration: none;
-    transition: color 0.2s ease-in-out;
+    /* transition: color 0.2s ease-in-out; */
 }
 
 a:hover,
 a:active {
     color: var(--light-pink);
-    font-family: Cascadia Code, Consolas, Courier New;
+    /* font-family: Cascadia Code, Consolas, Courier New; */
 }
 
 .ulNav {
@@ -271,7 +271,9 @@ p {
 }
 
 .projectDescriptionText {
-    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .projectImgDiv {

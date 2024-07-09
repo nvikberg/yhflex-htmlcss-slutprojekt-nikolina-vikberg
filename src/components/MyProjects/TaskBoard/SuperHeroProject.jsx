@@ -23,7 +23,6 @@ function SuperHeroProject() {
                             For realtime database I used Firestore and it held 4 main categories,
                             Assignment, Assigned, Team and Status. Since this was a fictional school project I choses
                             to create the task board for a team of superheroes which tasks are realted to solving the world
-                        <br /><br />
 
                             <ul>
                         <li>

@@ -26,14 +26,17 @@ function MovieProject() {
                             This is a movie website that shows the top 10 highest ranked movies & top 10 most popular movies right now, it also has a user search function for movies and celeberities.
 
                             Description of movies will show when hovering over the film and on Celebrity search there is information on movies/tv in when hovering over their image.                            <ul>
-                                <li>
-                                    <a href="https://nvikberg.github.io/java23-js-slutprojekt-nikolina-vikberg/" target="_blank" rel="noopener noreferrer">
-                                        Link to my GitHub pages
+                            <span>
+                                 <li className='projectDescriptionText'>
+                                    <a href="https://nvikberg.github.io/java23-js-slutprojekt-nikolina-vikberg/">
+                                        GitHub pages
                                     </a>
+                                    
                                 </li>
+                                </span>
                                 <li>
-                                    <a href="https://github.com/nvikberg/java23-js-slutprojekt-nikolina-vikberg.git" target="_blank" rel="noopener noreferrer">
-                                        Link to my GitHub project
+                                    <a href="https://github.com/nvikberg/java23-js-slutprojekt-nikolina-vikberg.git">
+                                    GitHub project
                                     </a>
                                 </li>
                             </ul>
