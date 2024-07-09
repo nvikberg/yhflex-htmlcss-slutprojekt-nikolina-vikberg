@@ -1,11 +1,16 @@
 import superheroPic from '../MyProjects/TaskBoard/superheroes.png';
-import moviesPic from '../MyProjects/MovieApp/movies.png';
-import numbersPic from '../MyProjects/NumbersGame/numbers.png';
+import moviesPic from '../MyProjects/MovieApp/mov.png';
+import dice2 from '../MyProjects/NumbersGame/dice2.jpg';
 import fruit from '../MyProjects/HealthApp/fruit.jpg'
 import { useNavigate } from 'react-router-dom';
 
 
 const portfolioData = [
+    {
+        route: './HealthAppProject',
+        src: fruit,
+        title: 'Health App',
+    },
     {
         route: './SuperHeroProject',
         src: superheroPic,
@@ -19,15 +24,11 @@ const portfolioData = [
     },
     {
         route: './NumbersGameProject',
-        src: numbersPic,
+        src: dice2,
         title: 'Numbers Game',
 
-    },
-    {
-        route: './HealthAppProject',
-        src: fruit,
-        title: 'Health App',
     }
+   
 
 
 ]

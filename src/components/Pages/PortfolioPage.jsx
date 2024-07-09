@@ -6,10 +6,10 @@ import HealthAppProject from "../MyProjects/HealthApp/HealthAppProject";
 function Portfolio() {
     return ( 
         <>
+        <HealthAppProject></HealthAppProject>
         <SuperHeroProject></SuperHeroProject>
         <MovieProject></MovieProject>
         <NumbersGameProject></NumbersGameProject>
-        <HealthAppProject></HealthAppProject>
         </>
      );
 }
