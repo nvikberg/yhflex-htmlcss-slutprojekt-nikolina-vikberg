@@ -1,3 +1,5 @@
+import { faAlignCenter } from "@fortawesome/free-solid-svg-icons/faAlignCenter";
+
 function ErrorPage() {
     return (
         <>

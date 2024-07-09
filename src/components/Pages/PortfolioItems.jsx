@@ -9,7 +9,7 @@ const portfolioData = [
     {
         route: './HealthAppProject',
         src: fruit,
-        title: 'Health App',
+        title: 'Wellness App',
     },
     {
         route: './MovieProject',

@@ -146,7 +146,7 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 2rem;
-    color: var(--light-pink);
+    color: var(--gray);
     margin-bottom: 5rem;
 }
 
