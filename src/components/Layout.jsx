@@ -26,8 +26,3 @@ const Layout = () => {
 };
 
 export default Layout;
-
-
-//to do
-//- change between colors on div for RUBRIK on teh different projects
-// - button for dark or light mode

@@ -23,15 +23,25 @@ function SuperHeroProject() {
                             For realtime database I used Firestore and it held 4 main categories,
                             Assignment, Assigned, Team and Status. Since this was a fictional school project I choses
                             to create the task board for a team of superheroes which tasks are realted to solving the world
+                        <br /><br />
+
+                            <ul>
+                        <li>
+                            <a href="https://nvikberg.github.io/JAVA23-AJS-slutprojekt-Sofia-Nikolina-Vikberg/" target="_blank" rel="noopener noreferrer">
+                                Link to my GitHub pages
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/nvikberg/JAVA23-AJS-slutprojekt-Sofia-Nikolina-Vikberg" target="_blank" rel="noopener noreferrer">
+                                Link to my GitHub project
+                            </a>
+                            </li>
+                        </ul>
+
                         </p>
 
                         <img src={superheroPic} alt="superhero" className='portfolioItems-img' />
-
-                        {/* <ul>
-              <link rel="stylesheet" href="https://nvikberg.github.io/JAVA23-AJS-slutprojekt-Sofia-Nikolina-Vikberg/" />
-              <link rel="stylesheet" href="https://github.com/nvikberg/JAVA23-AJS-slutprojekt-Sofia-Nikolina-Vikberg" />
-              </ul>  */}
-
+                       
                     </div>
 
                     <div className='projectImgDiv'>

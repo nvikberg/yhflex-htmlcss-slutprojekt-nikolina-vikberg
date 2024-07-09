@@ -2,10 +2,11 @@
     --main-background: #EAE7DC;
     --light-pink: #e97e72;
     --gray: #8b8484;
-    --darkGray: #5a5956;
+    --darkGray: #474747;
     --beige: #D8C3A5;
     --light-beige: #e3d9cb;
     --dark-pink: #E85A4F;
+    --margin: 3rem;
 }
 
 body {
@@ -15,21 +16,13 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
 }
 
-@media (max-width: 480px) {
 
-    body,
-    .text {
-        font-size: 1rem;
-    }
-}
 
 nav {
-    padding: 10px;
     margin-right: 5rem;
+    margin-top: 1rem;
 }
 
 
@@ -50,7 +43,6 @@ a:active {
     display: grid;
     justify-content: right;
     word-spacing: 1rem;
-    padding: 0;
     margin-bottom: 1rem;
 }
 
@@ -60,11 +52,14 @@ a:active {
     }
 }
 
+ul {
+    list-style: none;
+}
+
 
 .main-content {
     display: grid;
     padding: 3px;
-    margin-top: 2rem;
     grid-template-rows: auto 1fr auto;
     width: 100%;
 }
@@ -81,27 +76,37 @@ img {
 p {
     color: var(--gray);
     text-align: center;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: var(--margin);
+    margin-right: var(--margin);
 }
 
 
-.Nikolina2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-size: 3rem;
-    color: var(--light-pink);
-
-}
 
 /* Home Page */
 .myWork {
-    background-color: var(--light-beige);
+    background-color: var(--main-background);
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     align-items: center;
     justify-content: center;
-    gap: 20px auto;
+
+}
+
+.portfolioHeaderDiv {
+    /* background-color: var(--beige); */
+    height: 2rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.headerText {
+    font-size: 20px;
+    color: var(--darkGray);
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+
 }
 
 .portfolioItems {
@@ -130,6 +135,15 @@ p {
 }
 
 
+.Nikolina2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--light-pink);
+
+}
+
+
 
 /* Contact Page */
 
@@ -137,23 +151,19 @@ p {
     display: grid;
     grid-column: auto;
     grid-auto-flow: column;
-    width: 100%;
+    width: 80%;
     margin: 2rem auto;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    /* text-align: left; */
 }
 
 .profileImg {
     display: grid;
-    /* justify-content: right; */
     border-radius: 50%;
     width: 100%;
     height: auto;
     transition: width 0.4s;
-    /* flex-wrap: wrap; */
-
 }
 
 .profileImg:hover {
@@ -166,7 +176,6 @@ p {
 .contactText {
     color: var(--gray);
     text-align: left;
-    /* margin-top: 2rem; */
 }
 
 @media (max-width: 768px) {
@@ -184,11 +193,10 @@ p {
 
 
 /* Portfolio Page */
-
 .wrapDivs {
     display: grid;
     background-color: white;
-    margin-bottom: 3rem;
+    margin-bottom: var(--margin);
 }
 
 .projectPhotos {
@@ -272,7 +280,7 @@ p {
 
 footer {
     grid-row-end: auto;
-    margin-top: 3rem;
+    margin-top: var(--margin);
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -289,6 +297,19 @@ footer {
 }
 
 
+.footer-name {
+    font-size: large;
+}
+
+.footer-email {
+    color: var(--darkGray);
+}
+
+.footer-location {
+    color: var(--light-pink);
+}
+
+
 
 /* Dark/Light mode style */
 
@@ -298,6 +319,7 @@ footer {
         background-color: var(--darkGray);
         color: white;
     }
+    
 }
 
 @media (prefers-color-scheme: light) {

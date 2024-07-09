@@ -7,7 +7,6 @@ function Hello() {
         
     const navigate = useNavigate()
 
-
     const aboutMeClick = (route) => {
         navigate('./About Me')
     };
@@ -19,10 +18,10 @@ function Hello() {
     return (
         <div className="startPage">
             <p className="Nikolina2">
-                Hi. I'm Nikolina, <br/>a
-                Swede a Yogi & a &lt;coder&gt; student.
+               <span> Hi. I'm Nikolina, </span>
+                <p> <span>a
+                Swede, a Yogi and a &lt;coder&gt; student.</span></p>
             </p>
-            <button onClick={aboutMeClick}></button>
         </div>
     );
 }

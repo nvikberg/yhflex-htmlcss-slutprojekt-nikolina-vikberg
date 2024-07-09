@@ -1,6 +1,7 @@
 import superheroPic from '../MyProjects/TaskBoard/superheroes.png';
 import moviesPic from '../MyProjects/MovieApp/movies.png';
 import numbersPic from '../MyProjects/NumbersGame/numbers.png';
+import fruit from '../MyProjects/HealthApp/fruit.jpg'
 import { useNavigate } from 'react-router-dom';
 
 
@@ -24,9 +25,8 @@ const portfolioData = [
     },
     {
         route: './HealthAppProject',
-        src: numbersPic,
+        src: fruit,
         title: 'Health App',
-
     }
 
 
@@ -42,7 +42,10 @@ function PortfolioItems() {
 
 
     return (
-
+        <>
+<div className='portfolioHeaderDiv'>
+<p className='headerText'>My Work</p>
+</div>
         <div className="myWork">
             {portfolioData.map((item, index) => (
                 <div className='portfolioItems' key={index} onClick={()=> handleClick(item.route)}>
@@ -57,6 +60,7 @@ function PortfolioItems() {
                     </div>
             ))}
         </div>
+        </>
     );
 }
 

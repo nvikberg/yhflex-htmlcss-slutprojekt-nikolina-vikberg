@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Home from "./Pages/Home"
-import Contact from "./Pages/Contact"
+import Home from "./Pages/HomePage"
+import Contact from "./Pages/ContactPage"
 import Layout from "./Layout"
-import Portfolio from "./Pages/Portfolio"
+import Portfolio from "./Pages/PortfolioPage"
 import ErrorPage from "./Pages/ErrorPage"
 import SuperHeroProject from "./MyProjects/TaskBoard/SuperHeroProject"
 import MovieProject from "./MyProjects/MovieApp/MovieProject"
@@ -11,6 +11,7 @@ import HealthAppProject from "./MyProjects/HealthApp/HealthAppProject"
 
 export function App() {
     console.log("hello")
+
 
 
 
