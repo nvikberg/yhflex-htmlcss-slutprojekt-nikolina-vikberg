@@ -1,6 +1,6 @@
-import superheroPic from './MyProjects/superheroes.png';
-import moviesPic from './MyProjects/movies.png';
-import numbersPic from './MyProjects/numbers.png';
+import superheroPic from '../MyProjects/TaskBoard/superheroes.png';
+import moviesPic from '../MyProjects/MovieApp/movies.png';
+import numbersPic from '../MyProjects/NumbersGame/numbers.png';
 import { useNavigate } from 'react-router-dom';
 
 
@@ -13,7 +13,7 @@ const portfolioData = [
     {
         route: './MovieProject',
         src: moviesPic,
-        title: 'Movie Seacrh Engine',
+        title: 'Movie Search Engine',
 
     },
     {

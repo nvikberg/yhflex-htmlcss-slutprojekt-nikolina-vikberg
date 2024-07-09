@@ -1,9 +1,5 @@
 import moviesPic from './movies.png';
-import donePic from './done.png';
-import toDoPic from './ToDo.png';
-import InProgressPic from './InProgress.png';
-import firebase from './firebase.png';
-
+import searchPic from './movieSearch.png'
 
 function MovieProject() {
     return (
@@ -35,10 +31,7 @@ function MovieProject() {
                     </div>
 
                     <div className='projectImgDiv'>
-                        <img src={toDoPic} alt="todo" className='portfolioItems' />
-                        <img src={InProgressPic} alt="inprogress" className='portfolioItems' />
-                        <img src={donePic} alt="done" className='portfolioItems' />
-                        <img src={firebase} alt="firebase" className='portfolioItems' />
+                        <img src={searchPic} alt="searchPic" className='portfolioItems' />
 
                     </div>
                 </div>

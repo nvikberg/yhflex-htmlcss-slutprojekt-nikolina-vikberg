@@ -1,14 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Home from "./Home"
-import Contact from "./Contact"
+import Home from "./Pages/Home"
+import Contact from "./Pages/Contact"
 import Layout from "./Layout"
-import Portfolio from "./Portfolio"
-import ErrorPage from "./ErrorPage"
-import SuperHeroProject from "./MyProjects/SuperHeroProject"
-import MovieProject from "./MyProjects/MovieProject"
-import NumbersGameProject from "./MyProjects/NumbersGameProject"
-import HealthAppProject from "./MyProjects/HealthAppProject"
-import LinkedIn from "./linkedIn"
+import Portfolio from "./Pages/Portfolio"
+import ErrorPage from "./Pages/ErrorPage"
+import SuperHeroProject from "./MyProjects/TaskBoard/SuperHeroProject"
+import MovieProject from "./MyProjects/MovieApp/MovieProject"
+import NumbersGameProject from "./MyProjects/NumbersGame/NumbersGameProject"
+import HealthAppProject from "./MyProjects/HealthApp/HealthAppProject"
 
 export function App() {
     console.log("hello")
@@ -29,7 +28,6 @@ export function App() {
                     <Route path="numbersgameproject" element={<NumbersGameProject />} />
                     <Route path="healthappproject" element={<HealthAppProject />} />
                     <Route path="*" element={<ErrorPage />} />
-                    <Route path="http://www.linkedin.com/in/nikolina-vikberg-a368198b" element={<LinkedIn />} /> 
 
 
 

@@ -1,6 +1,6 @@
-import MovieProject from "./MyProjects/MovieProject";
-import SuperHeroProject from "./MyProjects/SuperHeroProject";
-import NumbersGameProject from "./MyProjects/NumbersGameProject"
+import MovieProject from "../MyProjects/MovieApp/MovieProject";
+import SuperHeroProject from "../MyProjects/TaskBoard/SuperHeroProject";
+import NumbersGameProject from "../MyProjects/NumbersGame/NumbersGameProject"
 
 function Portfolio() {
     return ( 
