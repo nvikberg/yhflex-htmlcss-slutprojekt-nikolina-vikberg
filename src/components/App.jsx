@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import ReactDOM from "react-dom/client"
 import Home from "./Pages/HomePage"
 import Contact from "./Pages/ContactPage"
 import Layout from "./Layout"
@@ -37,3 +38,6 @@ export function App() {
 
     </div>)
 }
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
