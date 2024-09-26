@@ -8,10 +8,10 @@ Assignment: Create a portfolio page with a startpage with gallery of your own pr
 
 Link to pages: https://nvikberg.github.io/yhflex-htmlcss-slutprojekt-nikolina-vikberg/
 
-How it works: 
-On the home page, you can click on each project and it will open in a new page.
-On the project page you can scroll down to see all the projects, you can hover over the images and they will enlarge.
-The site is dynamic and will adjust based on users device.
+How it works: <br>
+- On the home page, you can click on each project and it will open in a new page.
+- On the project page you can scroll down to see all the projects, you can hover over the images and they will enlarge.
+- The site is dynamic and will adjust based on users device.
 
 Web View <br>
 <img width="1256" alt="Skärmbild 2024-09-26 092944" src="https://github.com/user-attachments/assets/f6cf19bf-203a-4d9d-92f4-a85d6a048cb3">
